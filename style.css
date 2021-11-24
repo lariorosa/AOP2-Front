@@ -1,0 +1,148 @@
+body {
+    background: #000033;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 620px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00CED1;
+    border-bottom: 3px solid #00CED1;
+    margin-top: 5%;
+    left: 30%;
+    
+}
+
+header{
+    position: relative;
+    background: #000033;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 3px solid #00CED1;
+    padding: 0.1px 0;
+    height: 35px;    
+}
+
+nav {
+	position: relative;
+	bottom: 70px;
+	left: 0;
+    margin-left: -20px;
+}
+
+nav li {
+    display: inline;
+	margin: 0 0 0 -5px;
+}
+
+nav a {
+	color:#ffff00;
+	font-weight: bold;
+	font-size: 80px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: none;
+}
+/*ollhar a posicao absolute com top de 110px*/
+#burger_menu{
+    display: block;
+    position: relative;
+    bottom: 122px;
+    left: 570px;
+}
+  
+#burger_menu input{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 32px;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0; 
+    z-index: 2; 
+}
+
+#burger_menu span{
+    position: relative;
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #ffff00;
+    border-radius: 3px;
+    z-index: 1;    
+}
+
+.selection{
+    background: #fff;
+    padding: 10px;
+    
+    
+    
+}
+
+h2{
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+p{
+    margin-left: 15px;
+}
+
+.control{
+    
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #000033;
+    padding: 7px 20px;
+    border-width: 2px;
+}
+
+th{
+    text-align: left;
+}
+
+.grades{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 25px;
+    
+   
+}
+
+input[type=number]{
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #000033;
+    padding: 7px 3px;
+}
+
+  
+button{
+    background-color: #000033; 
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    
+}
+
+.buttons{
+    background: #fff;
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: -30px; /*preciso aprender a melhorar isso aqui*/
+   
+}
+
